@@ -1,0 +1,29 @@
+[
+  {
+    "scheme_id": "PMKISAN",
+    "name": "PM Kisan Samman Nidhi",
+    "max_land": 2,
+    "max_income": 200000,
+    "required_documents": ["aadhaar", "land_record", "bank_account"],
+    "benefit": "₹6000 per year",
+    "deadline": "2026-03-31"
+  },
+  {
+    "scheme_id": "PMFBY",
+    "name": "Pradhan Mantri Fasal Bima Yojana",
+    "max_land": 100,
+    "max_income": 1000000,
+    "required_documents": ["aadhaar", "bank_account"],
+    "benefit": "Crop insurance coverage",
+    "deadline": "Seasonal"
+  },
+  {
+    "scheme_id": "SHC",
+    "name": "Soil Health Card Scheme",
+    "max_land": 100,
+    "max_income": 1000000,
+    "required_documents": ["aadhaar"],
+    "benefit": "Free soil testing",
+    "deadline": "Ongoing"
+  }
+]

@@ -1,0 +1,9 @@
+scheme_name,scheme_type,min_land,max_land,income_limit,eligible_states,eligible_crops,farmer_category,benefits,documents_required,apply_mode
+PM-KISAN,Welfare,0,5,250000,Maharashtra,All,Small/Marginal,6000 per year,Aadhaar + Land Record,Online
+PMFBY,Insurance,0,No Limit,No Limit,Maharashtra,Notified Seasonal Crops,All (Loanee & Non-Loanee),Crop loss insurance coverage,Aadhaar + Bank Account + Land/Cultivation Proof,Online (NCIP/Bank/CSC)
+Soil Health Card,Welfare,0,No Limit,No Limit,Maharashtra,All,All Farmers,Free soil testing & nutrient advisory,Aadhaar + Land Record,Offline/Department Portal
+Kisan Credit Card,Credit,0,No Limit,No Limit,Maharashtra,All,All Farmers (including tenant/sharecroppers),Crop & allied activity credit with interest subsidy,Aadhaar + Land/Cultivation Proof + Bank Account,Bank/CSC/Online
+MahaDBT Agriculture Subsidy,Subsidy,0,No Limit,Scheme Specific,Maharashtra,All,All Farmers,Input & equipment subsidy,Aadhaar + Land Record + Bank Account,Online (MahaDBT/CSC)
+Krushi Sanjivani Yojana,Subsidy,0,No Limit,No Limit,Maharashtra,All,All Farmers (Drought-prone areas),Water conservation & climate-resilient farming support,Aadhaar + Land Record + Bank Account,Offline/Department Assisted
+Gopinath Munde Shetkari Apghat Vima Yojana,Insurance,0,No Limit,No Limit,Maharashtra,All,All Farmers (18–75 years),Accidental death & disability cover up to ₹2 lakh,Aadhaar + Land Record + Bank Account,Offline (Agriculture Dept/Insurer)
+

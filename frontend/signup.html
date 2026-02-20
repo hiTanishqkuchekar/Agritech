@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - Yojana Saarthi</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+
+
+<header class="navbar">
+    <div class="logo">🌱 Yojana Saarthi</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#how">How It Works</a>
+        <a href="#">Schemes</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+
+<section class="signup-section">
+
+    <div class="signup-card">
+
+        <h2>Create Account</h2>
+        <p>Join Yojana Saarthi and discover schemes</p>
+
+        <form onsubmit="handleRegister(event)">
+
+            
+            <label>Full Name</label>
+            <input type="text" id="regName" placeholder="Enter full name" required>
+
+            <label>Email</label>
+            <input type="email" id="regEmail" placeholder="Enter email" required>
+
+            <label>Password</label>
+            <input type="password" id="regPassword" placeholder="Create password" required>
+
+            <label>Land Size (in acres)</label>
+            <input type="number" id="landSize" placeholder="Enter land size" min="0" step="0.1" required>
+
+            
+            <label>State</label>
+            <select id="state" required>
+                <option value="Maharashtra" selected>Maharashtra</option>
+            </select>
+
+            
+            <label>District</label>
+            <select id="district" required>
+                <option value="">Select district</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Nashik</option>
+                <option>Nagpur</option>
+                <option>Thane</option>
+                <option>Palghar</option>
+                <option>Raigad</option>
+                <option>Ratnagiri</option>
+                <option>Sindhudurg</option>
+                <option>Satara</option>
+                <option>Sangli</option>
+                <option>Kolhapur</option>
+                <option>Solapur</option>
+                <option>Ahmednagar</option>
+                <option>Aurangabad</option>
+                <option>Jalna</option>
+                <option>Beed</option>
+                <option>Osmanabad</option>
+                <option>Latur</option>
+                <option>Nanded</option>
+                <option>Parbhani</option>
+                <option>Hingoli</option>
+                <option>Akola</option>
+                <option>Amravati</option>
+                <option>Buldhana</option>
+                <option>Yavatmal</option>
+                <option>Washim</option>
+                <option>Wardha</option>
+                <option>Chandrapur</option>
+                <option>Gadchiroli</option>
+                <option>Bhandara</option>
+                <option>Gondia</option>
+                <option>Dhule</option>
+                <option>Jalgaon</option>
+                <option>Nandurbar</option>
+            </select>
+
+            
+            <label>Village</label>
+            <input type="text" id="village" placeholder="Enter village name" required>
+
+            
+            <label>Crop Type</label>
+            <select id="cropType" required>
+                <option value="">Select crop</option>
+                <option>Wheat</option>
+                <option>Rice</option>
+                <option>Cotton</option>
+                <option>Sugarcane</option>
+                <option>Maize</option>
+                <option>Pulses</option>
+                <option>Vegetables</option>
+                <option>Fruits</option>
+            </select>
+
+            <label>Annual Income (₹)</label>
+            <input type="number" id="annualIncome" placeholder="Enter annual income" required>
+
+            <button class="signup-btn" type="submit">Sign Up</button>
+
+        </form>
+
+        <p class="form-link">
+            Already have an account?
+            <a href="signin.html">Sign In</a>
+        </p>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

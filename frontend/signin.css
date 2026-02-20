@@ -1,0 +1,75 @@
+.form-section {
+    height: 100vh;
+    background: url("images/farmer\ 2.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-card {
+    width: 350px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+.form-card h2 {
+    margin-bottom: 5px;
+    color: #2e7d32;
+}
+
+.form-card p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+
+.form-card label {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+
+.form-card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+
+.signin-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signin-btn:hover {
+    background: #1b5e20;
+}
+
+
+.form-link {
+    margin-top: 15px;
+}
+
+.form-link a {
+    color: #2e7d32;
+    font-weight: bold;
+    text-decoration: none;
+}
